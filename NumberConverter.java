@@ -29,7 +29,7 @@ public class NumberConverter {
             user.request(numberOrBack);
             if (!user.doBack) {
                 System.out.print("Conversion result: ");
-                System.out.println(ConverterCalculator.compute(user.sourceBase, user.targetBase, user.number));
+                System.out.println(ConverterCalculator.compute(user.number, user.sourceBase, user.targetBase));
             }
         } while (!user.doBack);
     }

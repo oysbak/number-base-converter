@@ -6,7 +6,6 @@ public class Prompt {
     private final String originalText;
 
     Prompt(String text) {
-        // Construct
         id = ++objectCounter;
         originalText = text;
     }
